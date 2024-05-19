@@ -1,0 +1,642 @@
+.body{
+	margin:0;
+}
+.Bigbox1{
+display: flex;
+width: 100%;
+height: 100vh;
+background-color: #35374B;
+}
+.Box1-1{
+display: flex;
+height: 85vh;
+width: 60%;
+align-items: center;
+justify-content: center;
+}
+.text1{
+color: white;
+font-family: arial black;
+font-size: 4vh;
+margin: 50px 50px 3px 0;
+}
+.text2{
+color: white;
+font-family: arial black;
+font-size: 6vh;
+margin: 3px 50px 3px 0;
+text-shadow: 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 0 #ffffff, 0 0 0 #ffffff, 0 0 0 #ffffff;
+}
+.Box1-2{
+height: 91vh;
+width: 40%;
+display: flex;
+align-items: center;
+}
+.text3{
+	color: white;
+	font-family: arial black;
+	font-size: 23px;
+    margin: 10px 50px 0 0;
+}
+.Picofme{
+	z-index: 2;
+	position: absolute;
+	border-radius: 50%;
+}
+.Bigbox2{
+width: 100%;
+height: 1700px;
+background-color: #344955;
+}
+.Educationtextdiv{
+display: flex;
+width: 100%;
+height: 250px;
+align-items: center;
+justify-content: center;
+}
+.Educationtext{
+margin: 0;
+color: white;
+font-family: arial black;
+font-size: 65px;
+}
+.prizrak{
+    width: 120px;
+    position: absolute;
+}
+.t200{
+	top: 200px;
+}
+.t300{
+    top: 300px;
+}
+.t400{
+    top: 400px;
+}
+.t500{
+    top: 500px;
+}
+.t600{
+    top: 600px;
+}
+.krug{
+    z-index: 1;
+    position: absolute;
+    height: 84vh;
+    width: 42vw;
+    top: 68px;
+    left: calc(50% + 53px);
+    border-radius: 100%;
+    background: rgb(120,160,131);
+    background: linear-gradient(90deg, rgba(120,160,131,1) 0%, rgba(80,114,123,1) 50%);
+}
+.zvezda1{
+	z-index: 1;
+	position: absolute;
+	height: 65px;
+    width: 65px;
+    top: 300px;
+    left: 725px;
+}
+.zvezda2{
+	z-index: 1;
+	position: absolute;
+	height: 130px;
+    width: 130px;
+    top: 350px;
+    left: 790px;
+}
+.zvezda3{
+	z-index: 1;
+	position: absolute;
+	height: 88px;
+    width: 88px;
+    top: 470px;
+    left: 740px;
+}
+.Box2-1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 0 0;
+}
+.Box2-1-1{
+	width: 49%;
+	height: 645px;
+	justify-content: left;
+}
+.polosochka{
+	width: 8px;
+	height: 640px;
+	border-radius: 50px;
+	background-color: white;
+}
+.Box2-1-3{
+	width: 49%;
+	height: 645px;
+	justify-content: right;
+}
+.Educationinfo1{
+	display: flex;
+	margin: 0 40px 0 20px;
+	width: 92%;
+	height: 190px;
+	border: 6px solid #fff;
+	border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.Educationboxinbox1-1{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.Educationinfoyear1{
+	font-size: 40px;
+	font-family: arial black;
+	color: white;
+}
+.Educationboxinbox1-2{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Educationinfotext1{
+	font-size: 25px;
+	font-family: arial black;
+	color: white;
+}
+.Educationinfo2{
+	display: flex;
+	margin: 190px 20px 0 40px;
+	width: 92%;
+	height: 190px;
+	border: 6px solid #fff;
+	border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.Educationboxinbox2-1{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.Educationinfoyear2{
+	font-size: 40px;
+	font-family: arial black;
+	color: white;
+}
+.Educationboxinbox2-2{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Educationinfotext2{
+	font-size: 25px;
+	font-family: arial black;
+	color: white;
+}
+.Educationinfo3{
+	display: flex;
+	margin: 190px 40px 0 20px;
+	width: 92%;
+	height: 240px;
+	border: 6px solid #fff;
+	border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.Educationboxinbox3-1{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.Educationinfoyear3{
+	font-size: 40px;
+	font-family: arial black;
+	color: white;
+}
+.Educationboxinbox3-2{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Educationinfotext3{
+	font-size: 25px;
+	font-family: arial black;
+	color: white;
+}
+.Box2-2{
+	display: flex;
+	width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.examsdiv{
+	margin: 90px 0 0 0;
+	border: 8px solid #ffffff;
+	border-radius: 30px;
+	height: 200px;
+	width: 65%;
+}
+.exams{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 100%;
+}
+.examstext{
+	margin-top: 6vh;
+	font-size: 40px;
+	font-family: arial black;
+	color: white;
+	text-shadow: 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 0 #ffffff, 0 0 0 #ffffff, 0 0 0 #ffffff;
+}
+.examsyear{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 28px;
+	width: 100%;
+}
+.examsyeartext{
+	font-size: 28px;
+	font-family: arial black;
+	color: white;
+	margin-top: 8vh;
+}
+.examsinfo{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 432px;
+	width: 100%;
+}
+.examsinfotext{
+    font-size: 20px;
+	font-family: arial black;
+	color: white;
+	margin-top: 5vh;
+}
+.Box2-3{
+	margin: 60px 0 0 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.Box2-3-1{
+    width: 49%;
+	height: 360px;
+	justify-content: left;
+}
+.polosochka2{
+	width: 8px;
+	height: 300px;
+	border-radius: 50px;
+	background-color: white;
+}
+.Box2-3-3{
+	display: flex;
+    width: 49%;
+	height: 360px;
+	justify-content: right;
+}
+.Educationinfo4{
+	display: flex;
+	margin: 40px 20px 0 40px;
+	width: 92%;
+	height: 190px;
+	border: 6px solid #ffffff;
+	border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.Educationboxinbox4-1{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.Educationinfoyear4{
+	font-size: 40px;
+	font-family: arial black;
+	color: white;
+}
+.Educationboxinbox4-2{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Educationinfotext4{
+	font-size: 25px;
+	font-family: arial black;
+	color: white;
+}
+.Bigbox3{
+	width: 100%;
+	height: 1000px;
+	background-color: #344955;
+}
+.Aboutmediv{
+	width: 100%;
+	height: 26vh;
+	display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.Aboutmetextmain{
+	font-size: 7vh;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+	color: white;
+}
+.Aboutmetextdiv{
+	width: 87vw;
+	display: flex;
+	text-align: center;
+}
+.Aboutmetext{
+	margin: 2vh 0 0 10vw;
+	font-size: 3vh;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+    color: white;
+}
+.skillspics{
+	width: 100%;
+	display: flex;
+}
+.taekwondopic{
+	height: 46vh;
+	width: 23vw;
+	border-radius: 100%;
+	margin: 5vh 11vw 0 4vw;
+}
+.mathpic{
+	height: 46vh;
+	width: 23vw;
+	border-radius: 100%;
+	margin: 5vh 0 0 0;
+}
+.tennispic{
+	height: 46vh;
+	width: 23vw;
+	border-radius: 100%;
+	margin: 5vh 4vw 0 11vw;
+}
+.Bigbox4{
+	width: 100%;
+	height: 250vh;
+	background-color: #35374B;
+}
+.Myprojectstextdiv{
+	width: 100%;
+	height: 26vh;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.Myprojectstext{
+    margin: 0 0 0 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+    color: white;
+    font-size: 7.5vh;
+}
+.razdelitel{
+	width: 100%;
+	height: 0.3vh;
+	background-color: white;
+}
+.Box4-1{
+	margin-top: 5vh;
+	display: flex;
+	width: 100%;
+	height: 60vh;
+	margin-bottom: 12vh;
+}
+.Box4-1-1{
+	width: 60%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.projecttext1{
+	font-size: 25px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+	color: white;
+}
+.firstgamebtn{
+	color: white;
+}
+.Box4-1-2{
+	width: 40%;
+	display: flex;
+    justify-content: center;
+}
+.project1pic{
+    width: 30vw;
+    height: 60vh;
+}
+.Box4-2{
+	display: flex;
+	width: 100%;
+	height: 60vh;
+	margin-bottom: 12vh;
+}
+.Box4-2-1{
+	width: 40%;
+	display: flex;
+    justify-content: center;
+}
+.project2pic{
+    width: 32vw;
+    height: 60vh;
+}
+.Box4-2-2{
+	width: 60%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.projecttext2{
+	font-size: 25px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+	color: white;
+}
+.firstsitebtn{
+    color: white;
+}
+.Box4-3{
+	margin-top: 5vh;
+	display: flex;
+	width: 100%;
+	height: 60vh;
+	margin-bottom: 12vh;
+}
+.Box4-3-1{
+	width: 60%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.projecttext3{
+	font-size: 25px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+	color: white;
+}
+.secondgamebtn{
+	color: white;
+}
+.Box4-3-2{
+	width: 40%;
+	display: flex;
+    justify-content: center;
+}
+.project3pic{
+    width: 30vw;
+    height: 60vh;
+}
+.Bigbox5{
+	height: 110vh;
+	width: 100%;
+    background-color: #35374B;
+}
+.Myskillstextdiv{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.Myskillstext{
+	margin: 0;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+	color: white;
+	font-size: 7.5vh; 
+}
+.Skillsdiv1{
+	width: 100%;
+	height: 16vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5vh;
+}
+.Skillstext1{
+	font-size: 5vh;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+	color: white;
+	margin: 0;
+}
+.shkala1{
+	height: 3.5vh;
+	width: 50vw;
+	border: 3px solid #fff;
+	margin-top: 1vh;
+	margin-left: 6vw;
+	border-radius: 10px;
+}
+.vnutrshkala1{
+	height: 3.4vh;
+	width: 36vw;
+	background: rgb(120,160,131);
+    background: linear-gradient(151deg, rgba(120,160,131,1) 24%, rgba(80,114,123,1) 57%);
+    border-radius: 10px;
+}
+.Skillsdiv2{
+	width: 100%;
+	height: 16vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Skillstext2{
+	font-size: 5vh;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+	color: white;
+	margin: 0;
+	margin-left: 1.1vw;
+}
+.shkala2{
+	height: 3.5vh;
+	width: 50vw;
+	border: 3px solid #fff;
+	margin-top: 1vh;
+	margin-left: 6vw;
+	border-radius: 10px;
+}
+.vnutrshkala2{
+	height: 3.4vh;
+	width: 24vw;
+	background: rgb(120,160,131);
+    background: linear-gradient(151deg, rgba(120,160,131,1) 24%, rgba(80,114,123,1) 57%);
+    border-radius: 10px;
+}
+.Skillsdiv3{
+	width: 100%;
+	height: 16vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Skillstext3{
+	font-size: 5vh;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+	color: white;
+	margin: 0;
+}
+.shkala3{
+	height: 3.5vh;
+	width: 50vw;
+	border: 3px solid #fff;
+	margin-top: 1vh;
+	margin-left: 5.2vw;
+	border-radius: 10px;
+
+}
+.vnutrshkala3{
+	height: 3.4vh;
+	width: 29vw;
+	background: rgb(120,160,131);
+    background: linear-gradient(151deg, rgba(120,160,131,1) 24%, rgba(80,114,123,1) 57%);
+    border-radius: 10px;
+}
+.Skillsdiv4{
+	width: 96%;
+	height: 16vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Skillstext4{
+	font-size: 5vh;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+	color: white;
+	margin: 0;
+}
+.shkala4{
+	height: 3.5vh;
+	width: 50vw;
+	border: 3px solid #fff;
+	margin-top: 1vh;
+	margin-left: 5.2vw;
+	border-radius: 10px;
+
+}
+.vnutrshkala4{
+	height: 3.4vh;
+	width: 40vw;
+	background: rgb(120,160,131);
+    background: linear-gradient(151deg, rgba(120,160,131,1) 24%, rgba(80,114,123,1) 57%);
+    border-radius: 10px;
+}
